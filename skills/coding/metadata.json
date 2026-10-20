@@ -1,0 +1,8 @@
+{
+  "name": "coding",
+  "description": "Industrial tool development, data processing scripts, automated testing, and execution loop",
+  "purpose": "Write production-ready Python code for refinery data processing, run code in isolated Docker sandbox, auto-fix syntax and test failures.",
+  "required_capabilities": ["coding", "reasoning"],
+  "required_tools": ["sandbox_executor", "filesystem"],
+  "expected_outputs": ["python_script.py", "test_report", "execution_stdout"]
+}

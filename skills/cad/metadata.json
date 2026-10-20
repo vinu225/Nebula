@@ -1,0 +1,8 @@
+{
+  "name": "cad",
+  "description": "3D parametric CAD modeling, FreeCAD automation, and 2D engineering blueprints",
+  "purpose": "Generate native FreeCAD (.FCStd), 2D AutoCAD (.dxf), vector blueprints (.svg), and 3D meshes (.stl) for industrial equipment and mechanical components according to ASME, API, and IBR standards.",
+  "required_capabilities": ["reasoning", "coding"],
+  "required_tools": ["generate_cad", "save_artifact"],
+  "expected_outputs": [".FCStd", ".dxf", ".svg", ".stl", ".py"]
+}

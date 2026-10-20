@@ -1,0 +1,8 @@
+{
+  "name": "inspection_report",
+  "description": "Plant and equipment inspection report analysis, anomaly extraction, and SOP verification",
+  "purpose": "Process scanned or digital inspection sheets, NDT reports, wall thickness tests, hydrotest records, and flag out-of-spec readings.",
+  "required_capabilities": ["vision", "reasoning"],
+  "required_tools": ["ocr", "pdf_parser", "rag_search", "docx_generator"],
+  "expected_outputs": ["anomaly_matrix", "approval_note.docx", "compliance_report"]
+}

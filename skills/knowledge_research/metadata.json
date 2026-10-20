@@ -1,0 +1,8 @@
+{
+  "name": "knowledge_research",
+  "description": "Local SOP, standard, and technical knowledge base hybrid search and synthesis",
+  "purpose": "Query internal refinery SOPs, OISD guidelines, API specifications, and maintenance manuals using vector and BM25 hybrid search.",
+  "required_capabilities": ["chat", "reasoning"],
+  "required_tools": ["rag_search", "pdf_parser"],
+  "expected_outputs": ["cited_answers", "clause_references", "compliance_summary"]
+}

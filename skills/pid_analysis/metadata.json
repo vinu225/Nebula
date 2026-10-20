@@ -1,0 +1,8 @@
+{
+  "name": "pid_analysis",
+  "description": "P&ID (Piping and Instrumentation Diagram) and engineering schematic analysis",
+  "purpose": "Analyze high-resolution P&ID drawings, trace fluid flow paths, identify tag numbers (instruments, control valves, pressure relief valves), and detect potential design hazards (HAZOP).",
+  "required_capabilities": ["vision", "reasoning"],
+  "required_tools": ["vision_processor", "pdf_parser", "ocr"],
+  "expected_outputs": ["instrument_list", "equipment_tag_matrix", "safety_review"]
+}

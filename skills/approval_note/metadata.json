@@ -1,0 +1,8 @@
+{
+  "name": "approval_note",
+  "description": "Standard PSU / Enterprise Approval Note generation in official format",
+  "purpose": "Generate formal approval notes following Indian public enterprise standards (Subject, Background, Justification, Financial Implications, Recommendations, Signing Authority).",
+  "required_capabilities": ["chat", "reasoning"],
+  "required_tools": ["docx_generator", "pdf_parser", "rag_search"],
+  "expected_outputs": ["approval_note.docx", "note_summary"]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "document_analysis",
+  "description": "General industrial document analysis, extraction, and synthesis",
+  "purpose": "Analyze technical documents, memos, contracts, and specifications with source citations and structured summaries.",
+  "required_capabilities": ["chat", "reasoning"],
+  "required_tools": ["pdf_parser", "ocr", "rag_search"],
+  "expected_outputs": ["structured_summary", "key_findings", "extracted_tables"]
+}

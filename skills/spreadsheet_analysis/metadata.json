@@ -1,0 +1,8 @@
+{
+  "name": "spreadsheet_analysis",
+  "description": "Refinery production, inventory, and sensor log spreadsheet processing",
+  "purpose": "Analyze CSV/Excel files (daily refinery crude intake, yield percentages, off-spec product logs), calculate KPIs, and generate summary sheets.",
+  "required_capabilities": ["coding", "reasoning"],
+  "required_tools": ["xlsx_generator", "sandbox_executor", "calculator"],
+  "expected_outputs": ["kpi_summary", "processed_workbook.xlsx", "chart_data"]
+}
